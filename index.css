@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+.root{
+  padding: 0 1rem;
+  margin: 1em;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.m2 {
+  text-align: center;
+  padding: 1em;
+}
+
+.m3 ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dt{
+  display: grid;
+  text-align: center;
+  margin: 1em 34em;
+
+
+}
+.dd{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: left;
+
+}
+
+.dr{
+  border-right: 0.1em solid #000000;
+  border-bottom-right-radius: 0.7em;
+  text-align: right;
+  padding-right: 0.5em;
+}
+.bk{
+  border-top: 0.1em solid #000000;
+
+}
+.r2{
+padding-left: 1em;
+}
+
+.r3{
+padding-left: 2em;
+}
+
+.r1{
+padding-left: 0.2em;
+}
+
+@media only screen and (max-width:1310px){
+  .dt{
+    margin: 1em 32em;
+  }
+}
+@media only screen and (max-width:1234px){
+  .dt{
+    margin: 1em 29em;
+  }
+}
+@media only screen and (max-width:1142px){
+  .dt{
+    margin: 1em 26em;
+  }
+}
+@media only screen and (max-width:1050px){
+  .dt{
+    margin: 1em 23em;
+  }
+}
+@media only screen and (max-width:950px){
+  .dt{
+    margin: 1em 20em;
+  }
+}
+@media only screen and (max-width:850px){
+  .dt{
+    margin: 1em 17em;
+  }
+}
+@media only screen and (max-width:750px){
+  .dt{
+    margin: 1em 14em;
+  }
+}
+@media only screen and (max-width:660px){
+  .dt{
+    margin: 1em 11em;
+  }
+}
+@media only screen and (max-width:565px){
+  .dt{
+    margin: 1em 8em;
+  }
+}
+
+@media only screen and (max-width:480px){
+  .dt{
+    margin: 1em 8em;
+  }
+}
